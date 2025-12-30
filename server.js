@@ -244,17 +244,20 @@ app.post('/api/contact', async (req, res) => {
     }
 });
 
-app.get('/', (req, res) => {
-    res.send('LearnCorp API is running');
-});
-
-// Start Server
-app.listen(PORT, () => {
-    console.log(`🚀 Server running on http://localhost:${PORT}`);
-});
 
 // Serve index.html on root request
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../index.html'));
 });
+
+// Export for Vercel
+module.exports = app;
+
+// Start Server Only if Running Locally
+if (require.main === module) {
+    app.listen(PORT, () => {
+        console.log('?? Server running on http://localhost:' + PORT);
+        console.log('?? To test on mobile, use http://<YOUR_IP_ADDRESS>:' + PORT);
+    });
+}
 
