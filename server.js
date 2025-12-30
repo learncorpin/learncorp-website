@@ -13,6 +13,9 @@ const PORT = 5000;
 app.use(cors());
 app.use(express.json());
 
+// Serve Static Files from Parent Directory
+app.use(express.static(path.join(__dirname, '../')));
+
 // MongoDB Connection
 // MongoDB Atlas Connection
 const dbURI = 'mongodb+srv://learncorpin_db_user:Learncorp%40565@learncorp.qvbdpdi.mongodb.net/?appName=learncorp';
@@ -249,3 +252,9 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
     console.log(`🚀 Server running on http://localhost:${PORT}`);
 });
+
+// Serve index.html on root request
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../index.html'));
+});
+
