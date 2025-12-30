@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers | LearnCorp</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container navbar">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="Logo" style="height: 50px; width: auto;">
+                <span class="text-gradient">Learncorp</span>
+            </a>
+
+            <nav>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="index.html#services" class="nav-link">Services</a></li>
+                    <li><a href="careers.html" class="nav-link" style="color: var(--primary);">Careers</a></li>
+                    <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div style="display: flex; gap: 1rem; align-items: center;">
+                <div class="header-socials" style="display: flex; gap: 0.8rem; margin-right: 0.5rem;">
+                    <a href="https://www.linkedin.com/in/learncorp" target="_blank"
+                        style="color: var(--text-muted); font-size: 1.2rem; transition: color 0.3s;"><i
+                            class="ri-linkedin-fill"></i></a>
+                    <a href="https://www.instagram.com/learncorp7?igsh=eDc0enlrNG1xbmx4" target="_blank"
+                        style="color: var(--text-muted); font-size: 1.2rem; transition: color 0.3s;"><i
+                            class="ri-instagram-line"></i></a>
+                </div>
+                <a href="#apply" class="btn btn-primary"
+                    style="display: none; @media(min-width: 768px){display:inline-flex;}">Apply Now</a>
+                <div class="mobile-toggle" id="mobile-toggle">
+                    <i class="ri-menu-4-line"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" style="min-height: 70vh; padding-top: calc(var(--nav-height) + 4rem);">
+        <div class="hero-glow"></div>
+        <div class="container hero-content">
+            <span class="badge">🎓 Internship Program</span>
+            <h1>Shape Your <br><span class="text-gradient">Future Career</span></h1>
+            <p>Join LearnCorp's elite internship program. Work on live enterprise projects, get mentored by industry
+                experts, and kickstart your journey in tech.</p>
+
+            <div class="hero-btns">
+                <a href="#roles" class="btn btn-primary">View Open Roles <i class="ri-arrow-down-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="section-padding services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Join <span class="text-gradient">Us?</span></h2>
+            </div>
+            <div class="grid-3">
+                <div class="service-card">
+                    <div class="icon-wrapper"><i class="ri-briefcase-4-line"></i></div>
+                    <h3>Real Projects</h3>
+                    <p>Don't just fetch coffee. Build real features for live clients and gain production-level
+                        experience.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-wrapper"><i class="ri-user-star-line"></i></div>
+                    <h3>Expert Mentorship</h3>
+                    <p>One-on-one guidance from senior developers and architects to help you grow faster.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-wrapper"><i class="ri-award-line"></i></div>
+                    <h3>Certification</h3>
+                    <p>Receive a verified certificate of completion and a letter of recommendation for exceptional
+                        performance.</p>
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div
+                style="display: flex; gap: 4rem; margin-top: 4rem; justify-content: center; border-top: 1px solid var(--glass-border); padding-top: 4rem; flex-wrap: wrap;">
+                <div style="text-align: center;">
+                    <h4 style="font-size: 2.5rem; color: var(--primary);">50+</h4>
+                    <p style="font-size: 1rem; color: var(--text-muted);">Real time project</p>
+                </div>
+                <div style="text-align: center;">
+                    <h4 style="font-size: 2.5rem; color: var(--secondary);">300+</h4>
+                    <p style="font-size: 1rem; color: var(--text-muted);">Internship students completed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Real Time Project Showcase -->
+    <section class="section-padding" style="background: var(--bg-card); position: relative; overflow: hidden;">
+        <div class="hero-glow" style="width: 500px; height: 500px; left: 0; top: 0; opacity: 0.2;"></div>
+        <div class="container">
+            <div class="section-header">
+                <h2>Real Time <span class="text-gradient">Project Experience</span></h2>
+                <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">See what our interns are building
+                    in the real world</p>
+            </div>
+
+            <div class="service-card"
+                style="max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 1.5rem; text-align: left; position: relative; z-index: 1;">
+                <div
+                    style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+                    <div>
+                        <span class="badge" style="margin-bottom: 0.5rem;">Featured Project</span>
+                        <h3 style="font-size: 1.8rem; margin-bottom: 0.5rem;">Integrated Student Management System (ERP)
+                        </h3>
+                        <p style="color: var(--text-muted); font-size: 0.95rem;">By <strong>Sakshi</strong> &
+                            <strong>Ritik Singh Rawat</strong>
+                        </p>
+                    </div>
+                    <div
+                        style="background: rgba(16, 185, 129, 0.1); padding: 0.5rem 1rem; border-radius: 8px; color: var(--primary); font-weight: 600;">
+                        Live Workflow
+                    </div>
+                </div>
+
+                <p style="line-height: 1.7; color: var(--text-muted);">
+                    A comprehensive ERP solution designed to streamline college administration. This project features
+                    user role management (Admin, Faculty, Student), course scheduling, attendance tracking, and grading
+                    systems, all integrated into a seamless workflow.
+                </p>
+
+                <div style="margin-top: 0.5rem;">
+                    <a href="https://project-integrated-college-erp-workflow-872.magicpatterns.app/" target="_blank"
+                        class="btn btn-primary" style="width: fit-content;">
+                        View Project Workflow <i class="ri-external-link-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Roles Grid -->
+        <section id="roles" class="section-padding" style="background: var(--glass-bg);">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Open <span class="text-gradient">Positions</span></h2>
+                </div>
+
+                <div class="grid-3">
+                    <!-- Role 1 -->
+                    <div class="service-card">
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                            <h3>Full Stack Dev</h3>
+                            <span class="badge" style="margin: 0; font-size: 0.7rem;">Remote</span>
+                        </div>
+                        <p style="margin-bottom: 1.5rem;">Build scalable web apps using React, Node.js, and MongoDB.
+                            Experience with API design is a plus.</p>
+                        <a href="#apply" class="btn btn-outline apply-btn-role" data-service="web-dev"
+                            style="width: 100%; justify-content: center; font-size: 0.9rem;">Apply Now</a>
+                    </div>
+
+                    <!-- Role 2 -->
+                    <div class="service-card">
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                            <h3>Machine Learning</h3>
+                            <span class="badge" style="margin: 0; font-size: 0.7rem;">Remote</span>
+                        </div>
+                        <p style="margin-bottom: 1.5rem;">Work on predictive models and NLP systems. Python, TensorFlow,
+                            or
+                            PyTorch knowledge required.</p>
+                        <a href="#apply" class="btn btn-outline apply-btn-role" data-service="machine-learning"
+                            style="width: 100%; justify-content: center; font-size: 0.9rem;">Apply Now</a>
+                    </div>
+
+                    <!-- Role 3 -->
+                    <div class="service-card">
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                            <h3>UI/UX Design</h3>
+                            <span class="badge" style="margin: 0; font-size: 0.7rem;">Hybrid</span>
+                        </div>
+                        <p style="margin-bottom: 1.5rem;">Design intuitive user interfaces for web and mobile. Figma
+                            mastery
+                            is a must.</p>
+                        <a href="#apply" class="btn btn-outline apply-btn-role" data-service="ui-ux"
+                            style="width: 100%; justify-content: center; font-size: 0.9rem;">Apply Now</a>
+                    </div>
+
+                    <!-- Role 4 -->
+                    <div class="service-card">
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                            <h3>Mobile App Dev</h3>
+                            <span class="badge" style="margin: 0; font-size: 0.7rem;">Remote</span>
+                        </div>
+                        <p style="margin-bottom: 1.5rem;">Develop cross-platform mobile apps using Flutter or React
+                            Native.
+                            iOS/Android knowledge is key.</p>
+                        <a href="#apply" class="btn btn-outline apply-btn-role" data-service="mobile-app"
+                            style="width: 100%; justify-content: center; font-size: 0.9rem;">Apply Now</a>
+                    </div>
+
+                    <!-- Role 5 -->
+                    <div class="service-card">
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                            <h3>Cybersecurity</h3>
+                            <span class="badge" style="margin: 0; font-size: 0.7rem;">Remote</span>
+                        </div>
+                        <p style="margin-bottom: 1.5rem;">Identify vulnerabilities and secure networks. Knowledge of
+                            ethical
+                            hacking and security protocols required.</p>
+                        <a href="#apply" class="btn btn-outline apply-btn-role" data-service="cyber-security"
+                            style="width: 100%; justify-content: center; font-size: 0.9rem;">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Application Form -->
+        <section id="apply" class="section-padding" style="position: relative;">
+            <div class="hero-glow" style="width: 400px; height: 400px; right: 0; left: auto; opacity: 0.3;"></div>
+            <div class="container">
+                <div class="section-header">
+                    <h2>Apply <span class="text-gradient">Now</span></h2>
+                    <p style="color: var(--text-muted);">Launch your career with LearnCorp Today.</p>
+                </div>
+
+                <div class="contact-wrapper">
+                    <!-- Left Side: Form -->
+                    <div class="contact-container" style="max-width: 100%; margin: 0;">
+                        <form id="contact-form" class="glass-form">
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label>Full Name</label>
+                                    <input type="text" name="name" required placeholder="John Doe">
+                                </div>
+                                <div class="form-group">
+                                    <label>University / College</label>
+                                    <input type="text" name="college" required placeholder="Institute Name">
+                                </div>
+                            </div>
+
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label>Email Address</label>
+                                    <input type="email" name="email" required placeholder="john@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label>Phone Number</label>
+                                    <input type="tel" name="phone" required placeholder="+91 98765...">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Position Applying For</label>
+                                <select name="service" id="service-select">
+                                    <option value="web-dev">Full Stack Developer</option>
+                                    <option value="machine-learning">Machine Learning</option>
+                                    <option value="mobile-app">Mobile Application Development</option>
+                                    <option value="cyber-security">Cybersecurity</option>
+                                    <option value="data-science">Data Science</option>
+                                    <option value="ui-ux">UI/UX Design</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Why do you want to join us?</label>
+                                <textarea name="message" rows="4" required
+                                    placeholder="Tell us about your passion..."></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Portfolio / LinkedIn URL</label>
+                                <input type="url" name="portfolio" placeholder="https://...">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary"
+                                style="width: 100%; justify-content: center; margin-top: 1rem;">
+                                Submit Application <i class="ri-send-plane-fill"></i>
+                            </button>
+                            <p id="form-status"
+                                style="text-align: center; margin-top: 1rem; font-size: 0.9rem; min-height: 1.5rem;">
+                            </p>
+                        </form>
+                    </div>
+
+                    <!-- Right Side: Quick Connect -->
+                    <div class="quick-connect">
+                        <h3>Quick Connect</h3>
+
+                        <a href="https://wa.me/918072519738" target="_blank" class="connect-item">
+                            <i class="ri-whatsapp-line"></i>
+                            <h4>WhatsApp Now</h4>
+                            <p>+91 8072519738</p>
+                        </a>
+
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=learncorp.in@gmail.com" target="_blank"
+                            class="connect-item">
+                            <i class="ri-mail-send-line"></i>
+                            <h4>Email Us</h4>
+                            <p>learncorp.in@gmail.com</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer section-padding"
+            style="padding-bottom: 2rem; border-top: 1px solid var(--glass-border); background: #020617;">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <a href="index.html" class="logo"
+                            style="margin-bottom: 1rem; display: inline-flex; text-decoration: none;">
+                            <img src="logo.png" alt="Logo" style="height: 40px; width: auto;">
+                            <span class="text-gradient" style="font-size: 1.5rem;">Learncorp</span>
+                        </a>
+                        <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">
+                            Empowering businesses with cutting-edge technology solutions and world-class professional
+                            training.
+                        </p>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="index.html#home">About Us</a></li>
+                            <li><a href="index.html#services">Services</a></li>
+                            <li><a href="careers.html" style="color: var(--primary);">Careers</a></li>
+                            <li><a href="index.html#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Programs</h4>
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/learncorp">Web
+                                    Development</a></li>
+                            <li><a href="https://www.linkedin.com/in/learncorp">Data
+                                    Science</a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/learncorp">Machine
+                                    Learning</a></li>
+                            <li><a href="https://www.linkedin.com/in/learncorp">Cyber
+                                    Security</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Connect</h4>
+                        <ul class="social-links" style="display: flex; gap: 1rem;">
+                            <li><a href="https://www.linkedin.com/in/learncorp" class="social-icon"><i
+                                        class="ri-linkedin-fill"></i></a></li>
+                            <li><a href="https://www.instagram.com/learncorp7?igsh=eDc0enlrNG1xbmx4"
+                                    class="social-icon"><i class="ri-instagram-line"></i></a></li>
+                        </ul>
+                        <div style="margin-top: 1rem; color: var(--text-muted); font-size: 0.9rem;">
+                            <p style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+                                <i class="ri-mail-line" style="color: var(--primary);"></i> learncorp.in@gmail.com
+                            </p>
+                            <p style="display: flex; align-items: center; gap: 0.5rem;">
+                                <i class="ri-whatsapp-line" style="color: var(--primary);"></i> +91 8072519738
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom"
+                    style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--glass-border); text-align: center; color: var(--text-muted); font-size: 0.9rem;">
+                    <p>&copy; 2025 LearnCorp. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- AI Interview Button -->
+        <a href="#ai-interview" class="ai-float" aria-label="Start AI Interview" title="AI Interview">
+            <i class="ri-robot-2-line"></i>
+        </a>
+
+        <!-- AI Chat Widget -->
+        <div id="ai-chat-widget" class="chat-widget">
+            <div class="chat-header">
+                <div style="display: flex; align-items: center; gap: 0.8rem;">
+                    <div class="chat-avatar">
+                        <i class="ri-robot-2-line"></i>
+                    </div>
+                    <div>
+                        <h4>LearnCorp AI</h4>
+                        <p>Virtual Interviewer</p>
+                    </div>
+                </div>
+                <button id="close-chat"><i class="ri-close-line"></i></button>
+            </div>
+            <div class="chat-body" id="chat-body">
+                <div class="message ai-message">
+                    Hello! I'm your AI Interviewer. I can help you prepare for your technical interview. What role are
+                    you applying for today?
+                </div>
+            </div>
+            <div class="chat-footer">
+                <input type="text" id="chat-input" placeholder="Type your answer...">
+                <button id="send-btn"><i class="ri-send-plane-fill"></i></button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>

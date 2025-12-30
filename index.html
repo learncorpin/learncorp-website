@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnCorp - Premier IT Solutions & Training</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Remix Icons for UI elements -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container navbar">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="Logo" style="height: 50px; width: auto;">
+                <span class="text-gradient">Learncorp</span>
+            </a>
+
+            <nav>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="careers.html" class="nav-link">Careers</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div style="display: flex; gap: 1rem; align-items: center;">
+                <div class="header-socials" style="display: flex; gap: 0.8rem; margin-right: 0.5rem;">
+                    <a href="https://www.linkedin.com/in/learncorp" target="_blank"
+                        style="color: var(--text-muted); font-size: 1.2rem; transition: color 0.3s;"><i
+                            class="ri-linkedin-fill"></i></a>
+                    <a href="https://www.instagram.com/learncorp7?igsh=eDc0enlrNG1xbmx4" target="_blank"
+                        style="color: var(--text-muted); font-size: 1.2rem; transition: color 0.3s;"><i
+                            class="ri-instagram-line"></i></a>
+                </div>
+                <a href="#contact" class="btn btn-primary"
+                    style="display: none; @media(min-width: 768px){display:inline-flex;}">Get Started</a>
+                <div class="mobile-toggle" id="mobile-toggle">
+                    <i class="ri-menu-4-line"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-glow"></div>
+        <div class="container hero-content">
+            <span class="badge">🚀 Leading the Digital Revolution</span>
+            <h1>Constructing The <br><span class="text-gradient">Future of IT</span></h1>
+            <p>From enterprise-grade software development to next-gen corporate training. We deliver scalable technology
+                solutions that drive business growth.</p>
+
+            <div class="hero-btns">
+                <a href="#services" class="btn btn-primary">Our Services <i class="ri-arrow-right-line"></i></a>
+                <a href="#contact" class="btn btn-outline">Contact Sales</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Comprehensive <span class="text-gradient">IT Expertise</span></h2>
+                <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">We combine technical excellence
+                    with industry insight to deliver outstanding results.</p>
+            </div>
+
+            <div class="grid-3">
+                <!-- Card 1 -->
+                <div class="service-card">
+                    <div class="icon-wrapper"><i class="ri-code-s-slash-line"></i></div>
+                    <h3>Custom Software</h3>
+                    <p>Tailor-made web and mobile applications designed to meet your specific business requirements with
+                        precision and scalability.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="service-card">
+                    <div class="icon-wrapper"><i class="ri-cloud-line"></i></div>
+                    <h3>Cloud Solutions</h3>
+                    <p>Secure, scalable, and efficient cloud infrastructure management (AWS, Azure, GCP) to optimize
+                        your operations.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="service-card">
+                    <div class="icon-wrapper"><i class="ri-robot-line"></i></div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Unlock the power of data with our advanced AI models, predictive analytics, and intelligent
+                        automation solutions.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="service-card">
+                    <div class="icon-wrapper"><i class="ri-shield-check-line"></i></div>
+                    <h3>Cybersecurity</h3>
+                    <p>Robust security protocols, penetration testing, and compliance audits to safeguard your digital
+                        assets.</p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="service-card">
+                    <div class="icon-wrapper"><i class="ri-presentation-line"></i></div>
+                    <h3>Corporate Training</h3>
+                    <p>Upskill your workforce with our industry-leading technical workshops and professional development
+                        programs.</p>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="service-card">
+                    <div class="icon-wrapper"><i class="ri-database-2-line"></i></div>
+                    <h3>Data Analytics</h3>
+                    <p>Transform raw data into actionable insights with our comprehensive big data and analytics
+                        services.</p>
+                </div>
+            </div>
+
+            <!-- Stats -->
+            <div
+                style="display: flex; gap: 4rem; margin-top: 4rem; justify-content: center; border-top: 1px solid var(--glass-border); padding-top: 4rem; flex-wrap: wrap;">
+                <div style="text-align: center;">
+                    <h4 style="font-size: 2.5rem; color: var(--primary);">10+</h4>
+                    <p style="font-size: 1rem; color: var(--text-muted);">Clients</p>
+                </div>
+                <div style="text-align: center;">
+                    <h4 style="font-size: 2.5rem; color: var(--secondary);">15+</h4>
+                    <p style="font-size: 1rem; color: var(--text-muted);">Jobs Roles</p>
+                </div>
+                <div style="text-align: center;">
+                    <h4 style="font-size: 2.5rem; color: var(--primary);">95%</h4>
+                    <p style="font-size: 1rem; color: var(--text-muted);">Success Rate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Methodology Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="text-gradient">Methodology</span></h2>
+                <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">A transparent, structured
+                    approach to delivering excellence.</p>
+            </div>
+
+            <div class="grid-3" style="grid-template-columns: 1fr 1fr; gap: 4rem;">
+                <!-- Project Method -->
+                <div>
+                    <h3 style="margin-bottom: 2rem; display: flex; align-items: center; gap: 0.5rem;">
+                        <span
+                            style="background: rgba(16, 185, 129, 0.1); color: var(--primary); padding: 0.2rem 0.6rem; border-radius: 6px; font-size: 0.9rem;">01</span>
+                        Client Project Lifecycle
+                    </h3>
+                    <div
+                        style="display: flex; flex-direction: column; gap: 1.5rem; position: relative; padding-left: 2rem; border-left: 2px solid var(--glass-border);">
+                        <div style="position: relative;">
+                            <div
+                                style="position: absolute; left: -2.6rem; top: 0.2rem; width: 1.2rem; height: 1.2rem; background: var(--primary); border-radius: 50%; border: 4px solid var(--bg-color);">
+                            </div>
+                            <h4 style="color: #fff; margin-bottom: 0.5rem;">Requirement Analysis</h4>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">We analyze your project
+                                requirements, define scope, and create a strategic roadmap.</p>
+                        </div>
+                        <div style="position: relative;">
+                            <div
+                                style="position: absolute; left: -2.6rem; top: 0.2rem; width: 1.2rem; height: 1.2rem; background: var(--primary); border-radius: 50%; border: 4px solid var(--bg-color);">
+                            </div>
+                            <h4 style="color: #fff; margin-bottom: 0.5rem;">Development & Execution</h4>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">We build your solution using agile
+                                methodologies, ensuring rapid progress and quality.</p>
+                        </div>
+                        <div style="position: relative;">
+                            <div
+                                style="position: absolute; left: -2.6rem; top: 0.2rem; width: 1.2rem; height: 1.2rem; background: var(--primary); border-radius: 50%; border: 4px solid var(--bg-color);">
+                            </div>
+                            <h4 style="color: #fff; margin-bottom: 0.5rem;">Delivery & Support</h4>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">Final deployment, smooth handover,
+                                and ongoing support to ensure your success.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sales Method -->
+                <div>
+                    <h3 style="margin-bottom: 2rem; display: flex; align-items: center; gap: 0.5rem;">
+                        <span
+                            style="background: rgba(59, 130, 246, 0.1); color: var(--secondary); padding: 0.2rem 0.6rem; border-radius: 6px; font-size: 0.9rem;">02</span>
+                        Sales Process
+                    </h3>
+                    <div
+                        style="display: flex; flex-direction: column; gap: 1.5rem; position: relative; padding-left: 2rem; border-left: 2px solid var(--glass-border);">
+                        <div style="position: relative;">
+                            <div
+                                style="position: absolute; left: -2.6rem; top: 0.2rem; width: 1.2rem; height: 1.2rem; background: var(--secondary); border-radius: 50%; border: 4px solid var(--bg-color);">
+                            </div>
+                            <h4 style="color: #fff; margin-bottom: 0.5rem;">Consultation</h4>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">Free initial consultation to
+                                understand your business needs and goals.</p>
+                        </div>
+                        <div style="position: relative;">
+                            <div
+                                style="position: absolute; left: -2.6rem; top: 0.2rem; width: 1.2rem; height: 1.2rem; background: var(--secondary); border-radius: 50%; border: 4px solid var(--bg-color);">
+                            </div>
+                            <h4 style="color: #fff; margin-bottom: 0.5rem;">Proposal & Strategy</h4>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">Tailored solution proposal with
+                                transparent pricing and timelines.</p>
+                        </div>
+                        <div style="position: relative;">
+                            <div
+                                style="position: absolute; left: -2.6rem; top: 0.2rem; width: 1.2rem; height: 1.2rem; background: var(--secondary); border-radius: 50%; border: 4px solid var(--bg-color);">
+                            </div>
+                            <h4 style="color: #fff; margin-bottom: 0.5rem;">Onboarding</h4>
+                            <p style="color: var(--text-muted); font-size: 0.9rem;">Smooth contract signing and project
+                                kickoff meeting.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section-padding" style="background: var(--bg-card);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Loved by <span class="text-gradient">Thousands</span></h2>
+                <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">See what our community has to say
+                    about their experience</p>
+            </div>
+
+            <div class="grid-3">
+                <!-- Person 1 -->
+                <div class="service-card" style="text-align: left;">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                        <div
+                            style="width: 50px; height: 50px; border-radius: 50%; background: linear-gradient(135deg, #FF6B6B, #EE5253); display: flex; align-items: center; justify-content: center; font-weight: bold; color: white;">
+                            KC</div>
+                        <div>
+                            <h4 style="margin: 0; color: #fff; font-size: 1.1rem;">Kirankumar.C</h4>
+                            <p style="margin: 0; color: var(--text-muted); font-size: 0.85rem;">C, C++, Python, Java</p>
+                        </div>
+                    </div>
+                    <div style="color: #fbbf24; margin-bottom: 0.8rem; font-size: 0.9rem;">
+                        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                            class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                    </div>
+                    <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-muted);">"It will great thing to
+                        conduct from you it will useful for gaining coding knowledge"</p>
+                </div>
+
+                <!-- Person 2 -->
+                <div class="service-card" style="text-align: left;">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                        <div
+                            style="width: 50px; height: 50px; border-radius: 50%; background: linear-gradient(135deg, #4834d4, #686de0); display: flex; align-items: center; justify-content: center; font-weight: bold; color: white;">
+                            SM</div>
+                        <div>
+                            <h4 style="margin: 0; color: #fff; font-size: 1.1rem;">SANDHIYA M C</h4>
+                            <p style="margin: 0; color: var(--text-muted); font-size: 0.85rem;">APPLICATION DEVELOPER
+                            </p>
+                        </div>
+                    </div>
+                    <div style="color: #fbbf24; margin-bottom: 0.8rem; font-size: 0.9rem;">
+                        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                            class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                    </div>
+                    <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-muted);">"The best aspect of thus
+                        internship is gaining real-world experience, developing skills, networking, and exploring career
+                        opportunities—all while boosting my resume."</p>
+                </div>
+
+                <!-- Person 3 -->
+                <div class="service-card" style="text-align: left;">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                        <div
+                            style="width: 50px; height: 50px; border-radius: 50%; background: linear-gradient(135deg, #6ab04c, #badc58); display: flex; align-items: center; justify-content: center; font-weight: bold; color: white;">
+                            SL</div>
+                        <div>
+                            <h4 style="margin: 0; color: #fff; font-size: 1.1rem;">S.Lasya Priya</h4>
+                            <p style="margin: 0; color: var(--text-muted); font-size: 0.85rem;">Full Stack Development
+                            </p>
+                        </div>
+                    </div>
+                    <div style="color: #fbbf24; margin-bottom: 0.8rem; font-size: 0.9rem;">
+                        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                            class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                    </div>
+                    <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-muted);">"Learning the best
+                        technologies for developing frontend and backend in the web development"</p>
+                </div>
+
+                <!-- Person 4 -->
+                <div class="service-card" style="text-align: left;">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                        <div
+                            style="width: 50px; height: 50px; border-radius: 50%; background: linear-gradient(135deg, #f0932b, #ffbe76); display: flex; align-items: center; justify-content: center; font-weight: bold; color: white;">
+                            PK</div>
+                        <div>
+                            <h4 style="margin: 0; color: #fff; font-size: 1.1rem;">Praveen Kancharla</h4>
+                            <p style="margin: 0; color: var(--text-muted); font-size: 0.85rem;">C, C++, Java, Python</p>
+                        </div>
+                    </div>
+                    <div style="color: #fbbf24; margin-bottom: 0.8rem; font-size: 0.9rem;">
+                        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                            class="ri-star-fill"></i><i class="ri-star-line"></i>
+                    </div>
+                    <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-muted);">"The best aspects of the
+                        internship were the opportunity to work on real-world projects that enhanced my practical
+                        understanding of programming concepts like database connectivity... Overall, the internship
+                        helped me build a strong technical foundation."</p>
+                </div>
+
+                <!-- Person 5 -->
+                <div class="service-card" style="text-align: left;">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                        <div
+                            style="width: 50px; height: 50px; border-radius: 50%; background: linear-gradient(135deg, #0984e3, #74b9ff); display: flex; align-items: center; justify-content: center; font-weight: bold; color: white;">
+                            PC</div>
+                        <div>
+                            <h4 style="margin: 0; color: #fff; font-size: 1.1rem;">PAVAN KUMAR CHALLA</h4>
+                            <p style="margin: 0; color: var(--text-muted); font-size: 0.85rem;">Cybersecurity</p>
+                        </div>
+                    </div>
+                    <div style="color: #fbbf24; margin-bottom: 0.8rem; font-size: 0.9rem;">
+                        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                            class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                    </div>
+                    <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-muted);">"Improving my knowledge
+                        and useful for my career"</p>
+                </div>
+
+                <!-- Person 6 -->
+                <div class="service-card" style="text-align: left;">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                        <div
+                            style="width: 50px; height: 50px; border-radius: 50%; background: linear-gradient(135deg, #6c5ce7, #a29bfe); display: flex; align-items: center; justify-content: center; font-weight: bold; color: white;">
+                            RP</div>
+                        <div>
+                            <h4 style="margin: 0; color: #fff; font-size: 1.1rem;">Rushikesh Devidas Patil</h4>
+                            <p style="margin: 0; color: var(--text-muted); font-size: 0.85rem;">Blockchain</p>
+                        </div>
+                    </div>
+                    <div style="color: #fbbf24; margin-bottom: 0.8rem; font-size: 0.9rem;">
+                        <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i
+                            class="ri-star-fill"></i><i class="ri-star-line"></i>
+                    </div>
+                    <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-muted);">"Hands-on experience with
+                        blockchain technology and real-world projects. Opportunity to learn and work on smart contracts,
+                        decentralized applications (dApps), and cryptographic concepts."</p>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding" style="position: relative;">
+        <!-- Background decorative element -->
+        <div class="hero-glow" style="width: 400px; height: 400px; right: 0; left: auto; opacity: 0.3;"></div>
+
+        <div class="container">
+            <div class="section-header">
+                <h2>Start Your <span class="text-gradient">Project</span></h2>
+                <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">Ready to innovate? Tell us about
+                    your needs and we'll build the future together.</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <!-- Left Side: Form -->
+                <div class="contact-container" style="max-width: 100%; margin: 0;">
+                    <form id="contact-form" class="glass-form">
+                        <h3 style="margin-bottom: 2rem; text-align: center;">Sales Inquiry Form</h3>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label>Full Name</label>
+                                <input type="text" name="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label>Business Email</label>
+                                <input type="email" name="email" required placeholder="john@company.com">
+                            </div>
+                            <div class="form-group">
+                                <label>Company Name</label>
+                                <input type="text" name="company" placeholder="Company Ltd.">
+                            </div>
+                            <div class="form-group">
+                                <label>Phone Number</label>
+                                <input type="tel" name="phone" placeholder="+1 (555) 000-0000">
+                            </div>
+                        </div>
+
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label>Service Interest</label>
+                                <select name="service">
+                                    <option value="general">General Inquiry</option>
+                                    <option value="software">Custom Software Development</option>
+                                    <option value="web-app">Web Application</option>
+                                    <option value="mobile-app">Mobile App Development</option>
+                                    <option value="cloud">Cloud Solutions</option>
+                                    <option value="ai">AI & Machine Learning</option>
+                                    <option value="corporate-training">Corporate Training</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Estimated Budget</label>
+                                <select name="budget">
+                                    <option value="unsure">Not sure yet</option>
+                                    <option value="1k-5k">$1,000 - $5,000</option>
+                                    <option value="5k-10k">$5,000 - $10,000</option>
+                                    <option value="10k-50k">$10,000 - $50,000</option>
+                                    <option value="50k+">$50,000+</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Project Details</label>
+                            <textarea name="message" rows="5" required
+                                placeholder="Tell us about your project goals, timeline, and requirements..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary"
+                            style="width: 100%; justify-content: center; margin-top: 1rem;">
+                            Submit Sales Inquiry <i class="ri-send-plane-fill"></i>
+                        </button>
+                        <p id="form-status"
+                            style="text-align: center; margin-top: 1rem; font-size: 0.9rem; min-height: 1.5rem;"></p>
+                    </form>
+                </div>
+
+                <!-- Right Side: Quick Connect -->
+                <div class="quick-connect">
+                    <h3>Quick Connect</h3>
+
+                    <a href="https://wa.me/918072519738" target="_blank" class="connect-item">
+                        <i class="ri-whatsapp-line"></i>
+                        <h4>WhatsApp Now</h4>
+                        <p>+91 8072519738</p>
+                    </a>
+
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=learncorp.in@gmail.com" target="_blank"
+                        class="connect-item">
+                        <i class="ri-mail-send-line"></i>
+                        <h4>Email Us</h4>
+                        <p>learncorp.in@gmail.com</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section-padding"
+        style="padding-bottom: 2rem; border-top: 1px solid var(--glass-border); background: #020617;">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo"
+                        style="margin-bottom: 1rem; display: inline-flex; text-decoration: none;">
+                        <img src="logo.png" alt="Logo" style="height: 40px; width: auto;">
+                        <span class="text-gradient" style="font-size: 1.5rem;">Learncorp</span>
+                    </a>
+                    <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">
+                        Empowering businesses with cutting-edge technology solutions and world-class professional
+                        training.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html#home">About Us</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="careers.html" style="color: var(--primary);">Careers</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Programs</h4>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/learncorp">Web
+                                Development</a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/learncorp">Data Science</a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/learncorp">Machine
+                                Learning</a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/learncorp">Cyber Security</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <ul class="social-links" style="display: flex; gap: 1rem;">
+                        <li><a href="https://www.linkedin.com/in/learncorp" class="social-icon"><i
+                                    class="ri-linkedin-fill"></i></a></li>
+                        <li><a href="https://www.instagram.com/learncorp7?igsh=eDc0enlrNG1xbmx4" class="social-icon"><i
+                                    class="ri-instagram-line"></i></a></li>
+                    </ul>
+                    <div style="margin-top: 1rem; color: var(--text-muted); font-size: 0.9rem;">
+                        <p style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+                            <i class="ri-mail-line" style="color: var(--primary);"></i> learncorp.in@gmail.com
+                        </p>
+                        <p style="display: flex; align-items: center; gap: 0.5rem;">
+                            <i class="ri-whatsapp-line" style="color: var(--primary);"></i> +91 8072519738
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom"
+                style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--glass-border); text-align: center; color: var(--text-muted); font-size: 0.9rem;">
+                <p>&copy; 2025 LearnCorp. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AI Interview Button -->
+    <a href="#ai-interview" class="ai-float" aria-label="Start AI Interview" title="AI Interview">
+        <i class="ri-robot-2-line"></i>
+    </a>
+
+    <!-- AI Chat Widget -->
+    <div id="ai-chat-widget" class="chat-widget">
+        <div class="chat-header">
+            <div style="display: flex; align-items: center; gap: 0.8rem;">
+                <div class="chat-avatar">
+                    <i class="ri-robot-2-line"></i>
+                </div>
+                <div>
+                    <h4>LearnCorp AI</h4>
+                    <p>Virtual Interviewer</p>
+                </div>
+            </div>
+            <button id="close-chat"><i class="ri-close-line"></i></button>
+        </div>
+        <div class="chat-body" id="chat-body">
+            <div class="message ai-message">
+                Hello! I'm your AI Interviewer. I can help you prepare for your technical interview. What role are you
+                applying for today?
+            </div>
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="chat-input" placeholder="Type your answer...">
+            <button id="send-btn"><i class="ri-send-plane-fill"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
