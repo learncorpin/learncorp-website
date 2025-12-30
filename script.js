@@ -50,8 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = Object.fromEntries(formData.entries());
 
             try {
-                // Determine API URL (Localhost for dev)
-                const apiUrl = 'http://localhost:5000/api/contact';
+                // Use relative path for production/local flexibility
+                const apiUrl = '/api/contact';
 
                 const response = await fetch(apiUrl, {
                     method: 'POST',
